@@ -55,8 +55,7 @@ Pseudocode Challenge week 2
    STORE "StatusKuku" without any value
 
    WHILE "CekSiswa" < JumlahSiswa
+        ADD "CekSiswa" by 1
         IF "StatusKuku" equal to "panjang"
             DO "Hukum Siswa"
-            ADD "CekSiswa" by 1
         DO "Puji Siswa"
-        ADD "CekSiswa" by 1
