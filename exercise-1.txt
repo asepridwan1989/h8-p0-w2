@@ -36,14 +36,14 @@ Pseudocode Challenge week 2
    Pseudocode:
    STORE "JumlahBaju" with 20
    STORE "HitungBaju" with 0
-   STORE "MesinON" without any value
+   STORE "MesinON" with false
 
-   WHILE "HitungBaju" < JumlahBaju
+   WHILE "HitungBaju" < JumlahBaju - 1
       ADD "HitungBaju" by 1
       SET "MesinON" to false
-      DISPLAY "Mesin cuci Belum menyala, masukan lagi baju anda"
+      DISPLAY "HitungBaju" + " baju masuk, masukan lagi sisa " + "(JumlahBaju - HitungBaju)" + "baju anda !"
+   DISPLAY "JumlahBaju" + "baju sudah masuk semua, mesin cuci Menyala"
    SET "MesinON" to true
-   DISPLAY "Mesin cuci Menyala"
 
 4. Jumlah Siswa : 40
    Jika kuku : "panjang" -> dihukum
@@ -56,6 +56,8 @@ Pseudocode Challenge week 2
 
    WHILE "CekSiswa" < JumlahSiswa
         ADD "CekSiswa" by 1
+        DISPLAY "ceksiswa ke - " + "CekSiswa"
         IF "StatusKuku" equal to "panjang"
             DO "Hukum Siswa"
+        ELSE
         DO "Puji Siswa"
