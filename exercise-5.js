@@ -11,7 +11,7 @@ var seventh = 'it!';
 
  //output : JavaScript is awesome and I love it!
 
- word = word + ' ' + second + ' ' + third + ' ' + fourth + ' ' + fifth + ' ' + sixth + ' ' + seventh
+ word = word + ' ' + second + ' ' + third + ' ' + fourth + ' ' + fifth + ' ' + sixth + ' ' + seventh;
  console.log(word);
 
  console.log('_________________________________________________________');
