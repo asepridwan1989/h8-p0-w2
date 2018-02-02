@@ -11,10 +11,12 @@ var seventh = 'it!';
 
  //output : JavaScript is awesome and I love it!
 
- console.log(word + ' ' + second + ' ' + third + ' ' + fourth + ' ' + fifth + ' ' + sixth + ' ' + seventh);
+ word = word + ' ' + second + ' ' + third + ' ' + fourth + ' ' + fifth + ' ' + sixth + ' ' + seventh
+ console.log(word);
+
  console.log('_________________________________________________________');
 //No.2 Index Accessing -1 by 1-----------------------------------------------------------------------------------------
-console.log('No.2 Index Accessing -1 by 1');
+console.log('No.2 Index Accessing - 1 by 1');
 var word = 'wow JavaScript is so cool';
 var exampleFirstWord = word[0] + word[1] + word[2];
 var secondWord = word[4] + word[5] + word[6] + word[7] + word[8] + word[9] + word[10] + word[11] + word[12] + word[13]; // do your own!
@@ -36,7 +38,7 @@ console.log('Second Word: ' + secondWord);
 console.log('Third Word: ' + thirdWord);
 console.log('Fourth Word: ' + fourthWord);
 console.log('Fifth Word: ' + fifthWord);
- console.log('_________________________________________________________');
+console.log('_________________________________________________________');
 //No. 3 Breaking Sentence (Again) using Substring-------------------------------------------------------------------
 console.log('No. 3 Breaking Sentence (Again) using Substring');
 var word3 = 'wow JavaScript is so cool';
