@@ -1,3 +1,4 @@
+// tugas LOOPING
 // No. 1 Melakukan Looping Menggunakan While-------------
 console.log('No. 1 Melakukan Looping Menggunakan While');
 console.log('LOOPING PERTAMA');
@@ -6,11 +7,10 @@ while(counter <= 20){
   console.log(counter + ' - I love coding');
   counter = counter + 2;
 }
-
 console.log('LOOPING KEDUA');
 var counter = 20;
 while(counter > 0){
-  console.log(counter + ' - I love coding');
+  console.log(counter + ' - I will become fullstack developer');
   counter = counter - 2;
 }
 
@@ -24,7 +24,7 @@ for(var i = 1; i < 21; i++){
 }
 console.log('LOOPING KEDUA');
 for(var j = 20; j > 0; j--){
-  console.log(j + ' - I love coding');
+  console.log(j + ' - I will become fullstack developer');
 }
 console.log('________________________________________________');
 
