@@ -6,11 +6,11 @@ Pseudocode Challenge week 2
    a(3 orang) = 2 m/s
 
    Pseudocode:
-   Store "m" with 600
-   store "a" with 2
-   store "ΣF"with no value
+   STORE "m" with 600
+   STORE "a" with 2
+   STORE "ΣF"with no value
 
-   set "ΣF" value with "m" times "a"
+   SET "ΣF" value with "m" times "a"
    DISPLAY "ΣF"
 
 2. Tahun kabisat :
