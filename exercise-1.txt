@@ -38,10 +38,10 @@ Pseudocode Challenge week 2
    STORE "HitungBaju" with 0
    STORE "MesinON" with false
 
-   WHILE "HitungBaju" < JumlahBaju - 1
-      ADD "HitungBaju" by 1
+   WHILE "HitungBaju" < "JumlahBaju"
       SET "MesinON" to false
       DISPLAY "HitungBaju" + " baju masuk, masukan lagi sisa " + "(JumlahBaju - HitungBaju)" + "baju anda !"
+      ADD "HitungBaju" by 1
    DISPLAY "JumlahBaju" + "baju sudah masuk semua, mesin cuci Menyala"
    SET "MesinON" to true
 
@@ -51,13 +51,13 @@ Pseudocode Challenge week 2
    __________________________________________________________________
    Pseudocode:
    STORE "JumlahSiswa" with 40
-   STORE "CekSiswa" with 0
+   STORE "CekSiswa" with 1
    STORE "StatusKuku" without any value
 
    WHILE "CekSiswa" < JumlahSiswa
-        ADD "CekSiswa" by 1
         DISPLAY "ceksiswa ke - " + "CekSiswa"
         IF "StatusKuku" equal to "panjang"
             DO "Hukum Siswa"
         ELSE
         DO "Puji Siswa"
+        ADD "CekSiswa" by 1
