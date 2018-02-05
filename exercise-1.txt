@@ -54,7 +54,7 @@ Pseudocode Challenge week 2
    STORE "CekSiswa" with 1
    STORE "StatusKuku" without any value
 
-   WHILE "CekSiswa" < JumlahSiswa
+   WHILE "CekSiswa" <= JumlahSiswa
         DISPLAY "ceksiswa ke - " + "CekSiswa"
         IF "StatusKuku" equal to "panjang"
             DO "Hukum Siswa"
